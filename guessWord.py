@@ -8,8 +8,10 @@ def timer (n):
 
 
 words =["яблоко","персик","банан","клубника"]
+anim=["антилопа","слон","медведь","кошка","собака"]
+
 while True:
-    word= choice(words)
+    word= choice(anim)
     first=word[0]
     last=word[len(word)-1]
     print("угадай слово")
@@ -24,3 +26,5 @@ while True:
         break
     else:
         print("жаль,ты не угадал")
+    
+
