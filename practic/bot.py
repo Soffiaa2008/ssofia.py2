@@ -32,11 +32,19 @@ while True:
 
     if message =="какие планы?" and isHello:
         if not isPlans:
+  
+
             print("бот: "+ random.choice(plans))
             isPlans=True
         else:
             print("бот: я уже говорил тебе!")
 
+
+    if message =="хочешь научу тебя здороваться?":
+            print("бот:да,я весь во внимании,что мне надо говорить? ")
+            newWord=input("новое слово->")
+            greetings.append(newWord)
+            print("спасибки:0")
 
 
 
