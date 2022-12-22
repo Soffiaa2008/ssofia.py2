@@ -1,0 +1,6 @@
+dfdfdf
+fggfgf
+gfgfgfgf
+.1Hw8EjBowGYeuOsR8mEhDGNRhG    elif message.content.startswith("завтра идти в школу?") or message.content.startswith("пойти гулять?"):
+        await message.channel.send(read_file("answer..txt"))
+        rf
